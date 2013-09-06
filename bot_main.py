@@ -17,7 +17,7 @@ irc_nick_re = "/(?<=[^a-z_\-\[\]\\^{}|`])[a-z_\-\[\]\\^{}|`][a-z0-9_\-\[\]\\^{}|
 
 device_list = ['/dev/ttyACM0', '/dev/ttyACM1', '/dev/ttyACM2', '/dev/ttyACM3', '/dev/tts/ACM0','/dev/tts/ACM1' ,0,1,2,3] 
 positives = ["Yessir", "o.k.", "Sure thing, hoss.","i live to serve.", "i'm on it", "Got it.", "right.", "of course.","your will is my command", "I thought you would never ask.", "roger", "can-do!", "as you wish."]  
-negatives = ["i simply cannot be fucked to help you, friend.", "No, sorry, I can't do that" , "i'd rather not", "definitely not going to happen.","i will not!", "Negatory.", "sorry, boss.", "Sadly, I should have to decline for now", "i tried as hard as i could, please don't hate me", "i cannot perform that function at this time", "i must regretfully inform you that that may be impossible."]
+negatives = ["i simply cannot be bothered to help you, friend.", "No, sorry, I can't do that" , "i'd rather not", "definitely not going to happen.","i will not!", "Negatory.", "sorry, boss.", "Sadly, I should have to decline for now", "i tried as hard as i could, please don't hate me", "i cannot perform that function at this time", "i must regretfully inform you that that may be impossible."]
 directives =["~quit", "~reload", "~report", "~takeoverz"]
 retort = ["no, you.", "whatever", "hey, stop highlighting me!", "i don't answer to you, peon.", "get real, dude.", "come at me, bro.", "LOL don't be mad"]
 greeting = ["we've missed you, ", "welcome, ", "hello, ", "hiya, ", "greetings ", "salutations, ", "YO YO YO YO YO YO ", "sup ", "I knew you'd be back, ", "welcome back, " "hey, howdy ", "waddup ", "hii "]
